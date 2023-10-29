@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="css/text" href="bulb.css">
+    <style>
+        .bulb1{
+  display: flex;  
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  margin-left: 600px;
+  
+  
+ }
+ .eyes{
+     display: flex;
+     justify-content: center;
+     width: 200px;
+     height: 200px;
+     margin-left: 600px;
+    
+ 
+     
+ }
+ .btn{
+    background-color: gray;
+    width: 200px;
+    height: 100px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 620px; 
+ }
+.btnon:hover{
+    height: 50px;
+    width:50px;
+    font-size: xx-large;
+
+}
+.btnoff:hover{
+    height: 50px;
+    width:50px;
+    font-size: xx-large;
+
+}
+
+    </style>
+</head>
+<body>
+   
+
+    <div style="background-color: black;">
+    
+    <div class="bulb1" >
+        <img id="light" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-off-img.png"/>
+    </div>
+    <div class="eyes" >
+        <img id="eye" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-eyes-img.png"/>
+    </div>
+    <div class="btn">
+       <center><p style="font-weight: bold; align-items: center;padding-top: 10%;">Switched Off</p>
+        <input type="button" class="btnon" value="ON"  id="onbtn" style="width: 70px;box-shadow:5px 5px 5px  black;border-radius: 10px;" onclick="lighton()"/>
+        <input type="button" class="btnoff" value="OFF" id="offbtn" style="width: 70px;box-shadow:5px 5px 5px  black;border-radius: 10px;" onclick="lightoff()"/></center>
+    </div>
+
+</div>
+    <script src="./blub.js"></script>
+</body>
+</html>
