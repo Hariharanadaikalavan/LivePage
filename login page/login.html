@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="css/text" href="./login.css">
+    <style>
+        .box{
+           background-color: yellow;
+          display:inline-block;
+         padding:30px;
+         }
+        #span{
+            color: black;
+        }
+        .heading{
+            color:white;
+        }
+        .inputbox{
+            margin-top: 5px;
+        }
+        .box2{
+            background-color: aliceblue;
+            padding:30px;
+            display: inline-block;
+            margin-bottom: 10px;
+            border-radius: 20px;
+        }
+        .checkbox{
+            font-size:x-small;
+            margin-bottom: 10px;
+        }
+        #btn{
+            background-color: black;
+            font-size: x-large;
+            color: aliceblue;
+            width:150px;
+            border-radius: 30px;
+            }
+           .error{
+            color:red;
+            margin-top: 5px;
+           }
+          #uname2,#emai2,#mobi2,#pass2,#city2,#pin2,#ref2{
+            color:green;
+            font-size: x-small;
+          }
+        
+        </style>
+</head>
+<body><center>
+   <form class="login">
+    <div class="box">
+        <h1 class="heading"><span id="span">Spark</span>Redeem</h1>
+
+        <div class="box2">
+        <div class="inputbox">
+            <input type="text"  placeholder="Name*" id="uname">
+          </div>
+          <div class="error" id="uname1"></div>
+          <div class="error" id="uname2"></div>
+
+        <div class="inputbox">
+            <input type="email" placeholder="Email*" id="emai">
+           </div>
+           <div class="error" id="emai1"></div>
+           <div class="error" id="emai2"></div>
+
+        <div class="inputbox">
+            <input type="number" placeholder="Mobile Number*" id="number">
+            </div>
+            <div class="error" id="mobi1"></div>
+            <div class="error" id="mobi2"></div>
+
+        <div class="inputbox">
+            <input type="password" placeholder="Password(Min 4,Max 6 Dits)" id="password">
+        </div>
+        <div class="error" id="pass1"></div>
+        <div class="error" id="pass2"></div>
+
+        <div class="inputbox">
+            <input type="text" placeholder="city*" id="city">
+        </div>
+        <div class="error" id="city1"></div>
+          <div class="error" id="city2"></div>
+
+        <div class="inputbox">
+            <input type="number" placeholder="pincode*" id="pincode">
+        </div>
+        <div class="error" id="pin1"></div>
+          <div class="error" id="pin2"></div>
+
+        <div class="inputbox">
+            <input type="number" placeholder="Referral Code" >
+       </div>
+       <div class="error" id="ref1"></div>
+          <div class="error" id="ref2"></div>
+
+        <div class="checkbox">
+            <input type="checkbox">
+            <label>I Accept <span"><a href=""  style="color:green">Terms & Conditions</a></span></label>
+        </div>
+
+        <div class="btn">
+            <input type="button" value="Register" id="btn">
+        </div>
+    </div>
+        <div class="register">
+            <label>Are you register user ? <a href="" style="font-size: larger; color: black;">Login</a> Now!</label>
+        </div>
+
+    </div>
+   </form>
+</center>
+
+    <script src="./login.js"></script>
+</body>
+</html>
