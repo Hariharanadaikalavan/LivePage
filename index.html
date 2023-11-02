@@ -7,10 +7,37 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
  
-       
+       <link rel="stylesheet" type="css/text" href="./index.css">
+       <style>
+        .Homepage{
+       background-color: rgb(52, 52, 147);
+       height:100vh;
+       width:100%;
+      
+          }
+          .container{
+         margin-left: 50%;
+            color: aliceblue;
+            
+          }
+            
+          .portfoli{
+            height:100vh;
+       width:100%;
+       background-color: blueviolet;
+          }
+
+          .projects{
+            font-size: xx-large;
+            margin-top: 10%;
+            background-color: aquamarine;
+            height:100vh;
+       width:100%;
+          }
+       </style>
  
 </head>
-<body class="bg-primary">
+<body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="https://getbootstrap.com/docs/5.3/utilities/background/">HARIHARAN ADAIKKALAVAN</a>
@@ -20,36 +47,69 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#HOME">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">portfolio</a>
+                <a class="nav-link" href="#portfolio">portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">BioGraphy</a>
+                <a class="nav-link" href="#project">Project</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Daily Tasks Updatation  
                 </a>
-                <ul class="dropdown-menu">
+                <ol class="dropdown-menu">
                   <li><a class="dropdown-item" href="">Item List</a></li>
                   <li><a class="dropdown-item" href="#">Employee Pay Slip </a></li>
-                  <li><a class="dropdown-item" href="./Colorpicker/index_1.html">1.Color Picker</a></li>
-                  <li><a class="dropdown-item" href="./cat/index_bulb.html">2.Bulb Light ON & OFF(JS)</a></li>
+                  <li><a class="dropdown-item" href="./Colorpicker/index_1.html">Color Picker</a></li>
+                  <li><a class="dropdown-item" href="./cat/index_bulb.html">Bulb Light ON & OFF(JS)</a></li>
                   <li><a class="dropdown-item" href="./Traffic/index_traffic.html">Traffic Light</a></li>
                   <li><a class="dropdown-item" href="#">Food Order</a></li>
                   <li><a class="dropdown-item" href="./login page/index.html">Login Page</a></li>
-                </ul>
+                </ol>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       
-      <div class="background mt-5">
-        <h1><center>Hi Welcome ALL</h1></center>
+      <div class="Homepage p-5" id="HOME" >
+        
+        <div class="container">
+            <img src="./hari.jpeg" height="50%" width="50%;">
+            <H1>MERNSTACK Developer</H1>
+            <h2>Hi,I'm <span style="color: red;">HariHaran</span></h2>
+            <h3>from coimbatore</h3>            
+        </div>
+    </div>
+
+        
+    
+    <div class="portfoli mt-5" id="portfolio" >
+            <center><h1>About Me</h1></center>
+            <h2 class="px-5">Greeting All !!!A good summary for an entry-level resume should focus on educational achievements, relevant coursework, transferable skills, and any related internships, volunteer work, or extracurricular activities.</h2>
+            
+
+        </div>
+
+        
+        
+        <div class="projects " id="project">
+
+            <ol>
+                <li>HTML</li>
+                <li>css</li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+                <li>Core Java</li>
+            </ol>
+        </div>
+        
+
+
+
         <script src="index.js"></script>
-      </div>
+     
     </body>
 </html>
