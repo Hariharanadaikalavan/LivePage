@@ -1,0 +1,87 @@
+[{
+    "registerNumber":"Rsp001",
+    "Name":"hariharan",
+    "age":23,
+    "Designation":"Full Stock Developer",
+    "skills":["html","css","js",6]
+   
+},
+{
+    "registerNumber":"Rsp002",
+    "Name":"Raghul",
+    "age":25,
+    "Designation":"Front End Developer",
+    "skills":["css","js",6]   
+},
+{
+    "registerNumber":"Rsp003",
+    "Name":"shyam",
+    "age":22,
+    "Designation":"Backend developer",
+    "skills":["ES-6",5,"true"]
+},
+{
+    "registerNumber":"Rsp004",
+    
+    "Name":"vishnu",
+    "age":20,
+    "Designation":"PHP developer",
+    "skills":["html","css","js",6]
+},
+{
+    "registerNumber":"Rsp005",
+    "Name":"suriya",
+    "age":22,
+    "Designation":"Node developer",
+    "skills":["html","css","js",6]
+},
+{
+    "registerNumber":"Rsp006",
+    "Name":"Shiva",
+    "age":33,
+    "Designation":" Developer",
+    "skills":["css","js",6]
+},
+{
+    "registerNumber":"Rsp007",
+    "Name":"keshav",
+    "age":15,
+    "Designation":"python Developer",
+    "skills":["html","css","js",6]
+},
+{
+    "registerNumber":"Rsp008",
+    "Name":"balaji",
+    "age":19,
+    "Designation":"sql Developer",
+    "skills":["html","css","js",6]
+},
+{
+    "registerNumber":"Rsp008",
+    "Name":"karrem",
+    "age":28,
+    "Designation":"mongobd Developer",
+    "skills":["html","css","js",6]
+},
+{
+    "registerNumber":"Rsp009",
+    "Name":"akash",
+    "age":25,
+    "Designation":"express Developer",
+    "skills":["html","css","js",6]
+},
+{
+    "registerNumber":"Rsp0010",
+    "Name":"raghu",
+    "age":26,
+    "Designation":"react developer",
+    "skills":["html","css","js",6]
+}
+
+
+
+
+
+
+
+]
