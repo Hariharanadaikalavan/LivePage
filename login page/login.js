@@ -77,7 +77,7 @@ document.getElementById('btn').addEventListener('click',login)
       }
       else{
         document.getElementById('pin1').innerText="pls enter 6 digits respectively";
-        document.getElementById('pin2').innerText="";
+        document.getElementById('pin2').innerText="";  
       }
 
 
