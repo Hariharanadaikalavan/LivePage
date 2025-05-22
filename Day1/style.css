@@ -1,0 +1,33 @@
+.yourname{
+    color: brown;
+    font-weight: bolder;
+}
+.yourbirth{
+    color: blue;
+    font-weight: bolder;
+}
+.domain{
+    color: green;
+}
+.tble{
+    background-color: blue;
+    border:10px solid black;
+    border-radius: 40px;
+    padding: 20px;
+}
+.educational{
+    color: red;
+}
+.bgm{
+    background-color: aqua;
+}
+.box{
+    background-color: black;
+}
+.btn{
+    color: pink;
+    color: red;
+}
+.outer{
+    border: 2px dashed black ;
+}
